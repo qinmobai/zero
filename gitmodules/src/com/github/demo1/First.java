@@ -14,5 +14,12 @@ public class First {
         System.out.println("HelloGit");
         System.out.println("HelloGit");
 
+        test();
+    }
+
+    public static void test(){
+        int i = 0;
+        i += 10;
+        System.out.println(i);
     }
 }
